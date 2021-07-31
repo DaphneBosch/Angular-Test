@@ -1,11 +1,16 @@
 /* Importing Bootstrap SCSS file. */
 @import '../../../node_modules/bootstrap/scss/bootstrap';
 
+// Importing Angular Material style
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 // Base scss
 @import 'base/global';
+@import 'base/nav';
 
 // Page specific scss
 
 // Modules as in buttons, footer, etc
+@import 'modules/mat';
 
 // Helper scss as in mixins, animations etc.

@@ -7,5 +7,6 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
+
 export class HomeComponent {
 }
